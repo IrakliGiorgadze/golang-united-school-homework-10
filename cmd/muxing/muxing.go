@@ -12,16 +12,7 @@ import (
 	_ "github.com/stretchr/testify"
 )
 
-/**
-Please note Start functions is a placeholder for you to start your own solution.
-Feel free to drop gorilla.mux if you want and use any other solution available.
-
-main function reads host/port from env just for an example, flavor it following your taste
-*/
-
-const (
-	getNameParameterKey = "param"
-)
+const getNameParameterKey = "param"
 
 // Start /** Starts the web server listener on given host and port.
 func Start(host string, port int) {
